@@ -17,9 +17,9 @@ To achieve this goal, a methodological review was conducted, utilizing resources
 It is important to emphasize that **this repository contains exclusively non-sensitive content**, such as the codes used to acquire additional features and train the machine and deep learning algorithms. Given that **this work was carried out in direct collaboration between the University of Brasília (UnB) and the Brazilian Ministry of Defense, many data cannot be shared publicly**. The main purpose of this repository is to integrate it into the portfolio of the author of the work, Bruno Scholles Soares Dias.
 
 <a name="det"></a>
-##Project Detailing
+## Project Detailing
 
-###Data Acquisition/Extraction
+### Data Acquisition/Extraction
 
 In the `Feature_Extraction` folder, there is a Python code, developed in a Jupyter notebook, accompanied by the GeoPandas and RasterIO libraries. This code aims to add features to data coming from various GeoTIFFs. The added features include the Tree Cover Index, using data from Global Forest Change, biomass from GlobBiomass, and land cover from MapBiomas.
 
@@ -27,7 +27,7 @@ Additionally, overlay and intersection operations are conducted between shapefil
 
 Through these procedures, the goal is to provide a more comprehensive and detailed analysis of geospatial data related to forest fires, allowing for a better understanding of forest cover patterns, biomass, land cover, and their relationship with protected areas, deforestation, and land use.
 
-###Training
+### Training
 
 The scripts `train-rf.py` and `train-mlp.py` represent, respectively, the training algorithms for Random Forest and Multi-Layer Perceptron (MLP). In the case of Random Forest, the developed code aims to classify fire events, utilizing the **scikit-learn library**. The initial configuration includes defining essential parameters, specifying datasets, and relevant features for event classification. After data preprocessing, the model is trained and statistically evaluated using metrics such as accuracy, recall, and f1-score to understand the model's performance.
 
