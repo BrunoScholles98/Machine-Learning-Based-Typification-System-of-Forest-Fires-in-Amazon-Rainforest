@@ -10,7 +10,7 @@
 <a name="desc"></a>
 ## 1. Description
 
-The project of this repository has been dedicated to a comprehensive approach to the application of machine learning and deep learning techniques to detect fire events in the Legal Amazon region. This initiative was carried out in close collaboration with the Managerial and Operational Center of the Amazon Protection System (CENSIPAM), aiming to integrate the results into the Fire Panel, a fire monitoring platform. Initially, using a dataset labeled by CENSIPAM, it was found necessary to expand the available features to ensure accurate classification through machine learning algorithms.
+The focus of this repository is dedicated to a research project aimed at utilizing machine learning and deep learning techniques for detecting fire events in the Legal Amazon region. This initiative was carried out in close collaboration with the Managerial and Operational Center of the Amazon Protection System (CENSIPAM), aiming to integrate the results into the Fire Panel, a fire monitoring platform. Initially, using a dataset labeled by CENSIPAM, it was found necessary to expand the available features to ensure accurate classification through machine learning algorithms.
 
 To achieve this goal, a methodological review was conducted, utilizing resources such as the GFED Amazon Dashboard, and collaborative consultations were held with CENSIPAM to identify essential characteristics for accurate categorization. Subsequently, two algorithms were evaluated: Random Forest and Multi-Layer Perceptron. The results obtained indicate an overall accuracy of around 77%, despite the challenges presented by the "Understory" and "Deforestation" classes, with the latter being of particular interest to CENSIPAM.
 
