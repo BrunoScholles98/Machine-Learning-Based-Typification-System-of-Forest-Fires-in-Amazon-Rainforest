@@ -3,7 +3,8 @@
 1. [Description](#desc)
 2. [Project Detailing](#det)
 3. [Contact](#contact)
-4. [Thanks](#thanks)
+4. [Thesis](#thesis)
+5. [Thanks](#thanks)
 
 # Machine Learning-based Typification System of Forest Fires in Amazon Rainforest
 
@@ -32,6 +33,11 @@ Through these procedures, the goal is to provide a more comprehensive and detail
 The scripts `train-rf.py` and `train-mlp.py` represent, respectively, the training algorithms for Random Forest and Multi-Layer Perceptron (MLP). In the case of Random Forest, the developed code aims to classify fire events, utilizing the **scikit-learn library**. The initial configuration includes defining essential parameters, specifying datasets, and relevant features for event classification. After data preprocessing, the model is trained and statistically evaluated using metrics such as accuracy, recall, and f1-score to understand the model's performance.
 
 For the MLP algorithm, training is conducted through code implemented using the **PyTorch library**. The MLP class plays a crucial role in structuring the machine learning model, creating a Multilayer Perceptron Neural Network to understand complex patterns in data and perform categorization tasks. The training process coordinates crucial steps such as data normalization, model training configuration, iteration over training and validation epochs, metric and result logging, as well as generating detailed reports for further analysis.
+
+<a name="thesis"></a>
+## Thesis
+
+This work was published as the author's undergraduate thesis, which is available in Portuguese at the following link: [DIAS, Bruno Scholles Soares. Tipificação de incêndios florestais na Amazônia Legal através de aprendizado de máquina. 2023. 73 f., il. Trabalho de conclusão de curso (Bacharelado em Engenharia de Redes de Comunicação) — Universidade de Brasília, Brasília, 2023.](https://bdm.unb.br/handle/10483/39841)
 
 <a name="contact"></a>
 ## Contact
